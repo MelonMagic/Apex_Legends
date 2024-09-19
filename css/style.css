@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+html{
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color: #e4c59e;
+    --secondary-color: #803D3B; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4{
+    font-family: "Teko", sans-serif;
+    font-weight: normal;
+
+}
+
+p, li{
+    font-family: "Teko", sans-serif;
+
+}
+
+header{
+    position: relative;
+}
+
+header nav{
+    background: var(--secondary-color);
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin: 5px 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:  white;
+    font-weight: 600;
+    transition: .3s;
+    padding: 5px;
+    font-size: 31px;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+header #parrafo1{
+    font-size: 50px;
+    padding-top: 285px;
+    padding-bottom: 285px;
+    margin-left: 200px;
+}
+
+header #imagenp{
+    float: right ;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+#toxi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 24px;
+}
+h2{
+    font-size: 40px;
+}
+
+#wraith{
+    margin: 20px;
+    float: left;
+    padding-right: 20px;
+
+}
+
+#parrafo2{
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+#pathfinder{
+    margin-bottom: 20px;
+    float: right;
+}
+
+#parrafo3{
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+#parrafo4{
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+#parrafo5{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.fila1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+#content1 {
+    position: relative;
+    z-index: 1; 
+    color: white; 
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background: url(../img/208d0429-02fc-45d7-92f5-0ca469c83b77.jpg);
+    padding: 100px;
+}
+
+#content2 {
+    position: relative;
+    z-index: 1; 
+    color: white; 
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background: url(../img/apex-legends-interview-epic-games-store-s20-wrecking-ball-3840x2160-8c3f46134f72\ 1.png);
+    padding: 100px;
+}
+
+#content3 {
+    position: relative;
+    z-index: 1; 
+    color: white; 
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background: url(../img/b4ac4ebe-8371-478a-a7fd-d1223cfce437.jpg);
+    padding: 100px;
+}
+
+#content4 {
+    position: relative;
+    z-index: 1; 
+    color: white; 
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background: url(../img/ss_0e1e750780d80e00a91ac27135a9e2800ed91995.1920x1080.jpg);
+    padding: 100px;
+}
